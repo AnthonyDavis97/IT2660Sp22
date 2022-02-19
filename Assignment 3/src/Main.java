@@ -5,17 +5,14 @@ public class Main {
 		
 		stack1.showAll();
 		stack1.push(1);
+		
+		System.out.println("");
 		stack1.showAll();
 		
-		stack1.push(2);
-		stack1.push(3);
-		stack1.push(4);
-		stack1.push(5);
-		stack1.push(6);
-		stack1.push(7);
-		stack1.push(8);
-		stack1.push(9);
-		stack1.push(10);
+		for(int i = 2; i < 11; i++) {
+			stack1.push(i);
+		}
+
 		stack1.showAll();
 		
 		int pop1 = stack1.pop();
